@@ -1,0 +1,66 @@
+CRITICAL - 2025-02-28 03:08:33 --> ErrorException: Undefined property: stdClass::$nombrecarrra
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 856.
+ 1 APPPATH\Views\biblioteca.php(856): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombrecarrra', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 856)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 03:43:12 --> ErrorException: Undefined variable $librosxautor
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 906.
+ 1 APPPATH\Views\biblioteca.php(906): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $librosxautor', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 906)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 03:44:30 --> ErrorException: Undefined variable $librosxautor
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $librosxautor', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Controllers\\Home.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 03:45:35 --> ErrorException: Undefined property: stdClass::$imgautor
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 911.
+ 1 APPPATH\Views\biblioteca.php(911): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$imgautor', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 911)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 03:46:32 --> ErrorException: Undefined property: stdClass::$imgautor
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 911.
+ 1 APPPATH\Views\biblioteca.php(911): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$imgautor', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 911)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

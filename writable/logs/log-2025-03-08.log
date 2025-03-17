@@ -1,0 +1,520 @@
+INFO - 2025-03-08 00:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 00:22:06 --> ErrorException: Undefined property: stdClass::$nombrecarrera
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 571.
+ 1 APPPATH\Views\biblioteca.php(571): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombrecarrera', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 571)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 00:22:11 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: roles]
+in SYSTEMPATH\Autoloader\Autoloader.php on line 519.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-03-08 00:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 00:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 03:11:26 --> ErrorException: Attempt to read property "idlibros" on null
+[Method: GET, Route: editarlibros/favicon.ico]
+in APPPATH\Views\admin\libros\edit.php on line 49.
+ 1 APPPATH\Views\admin\libros\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idlibros" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/libros/edit', [], true)
+ 5 APPPATH\Controllers\Libros.php(107): view('admin/libros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 03:12:12 --> ErrorException: Attempt to read property "idlibros" on null
+[Method: GET, Route: editarlibros/favicon.ico]
+in APPPATH\Views\admin\libros\edit.php on line 49.
+ 1 APPPATH\Views\admin\libros\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idlibros" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/libros/edit', [], true)
+ 5 APPPATH\Controllers\Libros.php(107): view('admin/libros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 03:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 03:37:55 --> ErrorException: Undefined property: stdClass::$nombrecarrera
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 571.
+ 1 APPPATH\Views\biblioteca.php(571): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombrecarrera', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 571)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 03:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 03:43:52 --> ErrorException: Undefined property: stdClass::$nombrecarrera
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 666.
+ 1 APPPATH\Views\biblioteca.php(666): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombrecarrera', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 666)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 03:49:50 --> ErrorException: Undefined property: stdClass::$nombrecarrera
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 748.
+ 1 APPPATH\Views\biblioteca.php(748): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombrecarrera', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 748)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 03:50:20 --> ErrorException: Undefined property: stdClass::$nombrecarrera
+[Method: GET, Route: /]
+in APPPATH\Views\biblioteca.php on line 834.
+ 1 APPPATH\Views\biblioteca.php(834): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombrecarrera', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php', 834)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\biblioteca.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('biblioteca', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 03:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 03:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:31:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcarreras/favicon.ico]
+in APPPATH\Views\admin\carreras\edit.php on line 54.
+ 1 APPPATH\Views\admin\carreras\edit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\edit.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/carreras/edit', [], true)
+ 5 APPPATH\Controllers\Areasconocimiento.php(44): view('admin/carreras/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Areasconocimiento->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Areasconocimiento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:32:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcarreras/favicon.ico]
+in APPPATH\Views\admin\carreras\edit.php on line 54.
+ 1 APPPATH\Views\admin\carreras\edit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\edit.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/carreras/edit', [], true)
+ 5 APPPATH\Controllers\Areasconocimiento.php(44): view('admin/carreras/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Areasconocimiento->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Areasconocimiento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:32:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcarreras/favicon.ico]
+in APPPATH\Views\admin\carreras\edit.php on line 54.
+ 1 APPPATH\Views\admin\carreras\edit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\edit.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/carreras/edit', [], true)
+ 5 APPPATH\Controllers\Areasconocimiento.php(44): view('admin/carreras/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Areasconocimiento->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Areasconocimiento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:34:13 --> ErrorException: Attempt to read property "idalumno" on null
+[Method: GET, Route: editaralumnos/favicon.ico]
+in APPPATH\Views\admin\alumnos\edit.php on line 50.
+ 1 APPPATH\Views\admin\alumnos\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idalumno" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumnos/edit', [], true)
+ 5 APPPATH\Controllers\Alumnos.php(73): view('admin/alumnos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:37:46 --> ErrorException: Attempt to read property "idalumno" on null
+[Method: GET, Route: editaralumnos/favicon.ico]
+in APPPATH\Views\admin\alumnos\edit.php on line 50.
+ 1 APPPATH\Views\admin\alumnos\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idalumno" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumnos/edit', [], true)
+ 5 APPPATH\Controllers\Alumnos.php(73): view('admin/alumnos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:39:11 --> ErrorException: Attempt to read property "idalumno" on null
+[Method: GET, Route: editaralumnos/favicon.ico]
+in APPPATH\Views\admin\alumnos\edit.php on line 50.
+ 1 APPPATH\Views\admin\alumnos\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idalumno" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumnos/edit', [], true)
+ 5 APPPATH\Controllers\Alumnos.php(73): view('admin/alumnos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:48:31 --> ErrorException: Attempt to read property "idalumno" on null
+[Method: GET, Route: editaralumnos/favicon.ico]
+in APPPATH\Views\admin\alumnos\edit.php on line 50.
+ 1 APPPATH\Views\admin\alumnos\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idalumno" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\alumnos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumnos/edit', [], true)
+ 5 APPPATH\Controllers\Alumnos.php(73): view('admin/alumnos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:49:45 --> ErrorException: Attempt to read property "idusuario" on null
+[Method: GET, Route: editarusuarios/favicon.ico]
+in APPPATH\Views\admin\usuarios\edit.php on line 50.
+ 1 APPPATH\Views\admin\usuarios\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idusuario" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\usuarios\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\usuarios\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/usuarios/edit', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(95): view('admin/usuarios/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 04:51:59 --> ErrorException: Attempt to read property "idusuario" on null
+[Method: GET, Route: editarusuarios/favicon.ico]
+in APPPATH\Views\admin\usuarios\edit.php on line 50.
+ 1 APPPATH\Views\admin\usuarios\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idusuario" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\usuarios\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\usuarios\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/usuarios/edit', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(95): view('admin/usuarios/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-08 04:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 04:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 06:13:52 --> ErrorException: Cannot redeclare App\Controllers\Home::mostrar()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-08 06:14:40 --> ErrorException: Cannot redeclare App\Controllers\Home::mostrar()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-08 06:15:44 --> ErrorException: Cannot redeclare App\Controllers\Home::mostrar()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-03-08 06:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 06:48:53 --> ErrorException: Attempt to read property "idlibros" on null
+[Method: GET, Route: editarlibros/favicon.ico]
+in APPPATH\Views\admin\libros\edit.php on line 49.
+ 1 APPPATH\Views\admin\libros\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idlibros" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/libros/edit', [], true)
+ 5 APPPATH\Controllers\Libros.php(107): view('admin/libros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 08:14:53 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: editarlibros/5]
+in SYSTEMPATH\Autoloader\Autoloader.php on line 296.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-08 08:14:53 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: libroscarreras/5]
+in SYSTEMPATH\Helpers\url_helper.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-08 07:19:26 --> ErrorException: Attempt to read property "idlibros" on null
+[Method: GET, Route: editarlibros/favicon.ico]
+in APPPATH\Views\admin\libros\edit.php on line 49.
+ 1 APPPATH\Views\admin\libros\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idlibros" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/libros/edit', [], true)
+ 5 APPPATH\Controllers\Libros.php(107): view('admin/libros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-08 07:33:14 --> mysqli_sql_exception: Unknown column 'alumnos.idcarrera' in 'on clause' in C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `libros`...', 0)
+#1 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `libros`...')
+#2 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `libros`...')
+#3 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `libros`...', Array, false)
+#4 C:\xampp\htdocs\bibliotecadigital\app\Models\LibrosModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bibliotecadigital\app\Controllers\Home.php(29): App\Models\LibrosModel->getDetalleLibros('{2}')
+#6 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('{2}')
+#7 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\bibliotecadigital\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-08 07:33:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'alumnos.idcarrera' in 'on clause'
+[Method: GET, Route: libroscarreras/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = :idlibros:', [...], false)
+ 2 APPPATH\Models\LibrosModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(29): App\Models\LibrosModel->getDetalleLibros('{2}')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('{2}')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 07:33:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'alumnos.idcarrera' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = \'{2}\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = \'{2}\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = :idlibros:', [...], false)
+ 4 APPPATH\Models\LibrosModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(29): App\Models\LibrosModel->getDetalleLibros('{2}')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('{2}')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 07:33:16 --> [Caused by] mysqli_sql_exception: Unknown column 'alumnos.idcarrera' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = \'{2}\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = \'{2}\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = \'{2}\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `libros`.*, `areaconocimiento`.`nombrearea` AS `carrera`, `areaconocimiento`.`idarea` AS `idarea`
+FROM `libros`
+JOIN `areaconocimiento` ON `alumnos`.`idcarrera` = `libros`.`id_carrera`
+WHERE `idlibros` = :idlibros:', [...], false)
+ 5 APPPATH\Models\LibrosModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\LibrosModel->getDetalleLibros('{2}')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('{2}')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 23:07:55 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 23:07:56 --> ErrorException: Undefined variable $route
+[Method: GET, Route: probando]
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 23:11:08 --> ErrorException: Undefined variable $carreras
+[Method: GET, Route: probando]
+in APPPATH\Views\layouts\layoutFront.php on line 241.
+ 1 APPPATH\Views\layouts\layoutFront.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carreras', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php', 241)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layoutFront.php', [], true)
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Home.php(73): view('detalle')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->probando()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 23:37:23 --> ErrorException: Attempt to read property "telefono" on array
+[Method: GET, Route: probando]
+in APPPATH\Views\layouts\layoutFront.php on line 175.
+ 1 APPPATH\Views\layouts\layoutFront.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefono" on array', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php', 175)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layoutFront.php', [], true)
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('libreria', [], true)
+ 6 APPPATH\Controllers\Home.php(78): view('libreria', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->probando()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 23:47:04 --> ErrorException: Undefined variable $configuracion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\layoutFront.php on line 172.
+ 1 APPPATH\Views\layouts\layoutFront.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layoutFront.php', [], true)
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('biblioteca', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

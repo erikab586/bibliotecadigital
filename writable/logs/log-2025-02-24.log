@@ -1,0 +1,66 @@
+CRITICAL - 2025-02-24 01:21:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/alumno/index.php"
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/alumno/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumno/index', [], true)
+ 3 APPPATH\Controllers\Alumnos.php(14): view('admin/alumno/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 01:34:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/alumno/index.php"
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/alumno/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumno/index', [], true)
+ 3 APPPATH\Controllers\Alumnos.php(14): view('admin/alumno/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 01:35:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/alumno/index.php"
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/alumno/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumno/index', [], true)
+ 3 APPPATH\Controllers\Alumnos.php(14): view('admin/alumno/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 01:38:03 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: alumnos]
+in APPPATH\Views\admin\alumnos\index.php on line 106.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/alumnos/index', [], true)
+ 3 APPPATH\Controllers\Alumnos.php(14): view('admin/alumnos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 03:15:17 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: /]
+in SYSTEMPATH\Autoloader\Autoloader.php on line 296.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-24 04:23:59 --> ErrorException: Undefined variable $roles
+[Method: GET, Route: carreras]
+in APPPATH\Views\admin\carreras\index.php on line 95.
+ 1 APPPATH\Views\admin\carreras\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\index.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\carreras\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/carreras/index', [], true)
+ 5 APPPATH\Controllers\Areasconocimiento.php(14): view('admin/carreras/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Areasconocimiento->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Areasconocimiento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

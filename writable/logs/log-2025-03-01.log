@@ -1,0 +1,322 @@
+ERROR - 2025-03-01 06:32:48 --> mysqli_sql_exception: Column 'nombres' cannot be null in C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\bibliotecadigital\app\Models\AlumnosModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\bibliotecadigital\app\Controllers\Alumnos.php(54): App\Models\AlumnosModel->insertar(Array)
+#6 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(933): App\Controllers\Alumnos->save()
+#7 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#8 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\bibliotecadigital\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-01 06:32:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombres' cannot be null
+[Method: POST, Route: guardaralumnos]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (:nombres:, :apaterno:, :amaterno:, :dni:, :matricula:, :email:, :ciclo:, :password:, :idrol:, :idcarrera:, :created_at:)', [...], false)
+ 2 APPPATH\Models\AlumnosModel.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Alumnos.php(54): App\Models\AlumnosModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 06:32:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombres' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL, \'2025-03-01 06:32:47\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL, \'2025-03-01 06:32:47\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (:nombres:, :apaterno:, :amaterno:, :dni:, :matricula:, :email:, :ciclo:, :password:, :idrol:, :idcarrera:, :created_at:)', [...], false)
+ 4 APPPATH\Models\AlumnosModel.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Alumnos.php(54): App\Models\AlumnosModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 06:32:49 --> [Caused by] mysqli_sql_exception: Column 'nombres' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL, \'2025-03-01 06:32:47\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL, \'2025-03-01 06:32:47\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL, \'2025-03-01 06:32:47\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombres`, `apaterno`, `amaterno`, `dni`, `matricula`, `email`, `ciclo`, `password`, `idrol`, `idcarrera`, `created_at`) VALUES (:nombres:, :apaterno:, :amaterno:, :dni:, :matricula:, :email:, :ciclo:, :password:, :idrol:, :idcarrera:, :created_at:)', [...], false)
+ 5 APPPATH\Models\AlumnosModel.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Alumnos.php(54): App\Models\AlumnosModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Alumnos->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 06:52:29 --> ErrorException: Attempt to read property "logo" on array
+[Method: GET, Route: configurar]
+in APPPATH\Views\admin\configuracion\configurar.php on line 57.
+ 1 APPPATH\Views\admin\configuracion\configurar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "logo" on array', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\configuracion\\configurar.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\configuracion\\configurar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/configuracion/configurar', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(14): view('admin/configuracion/configurar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 06:53:21 --> ErrorException: Attempt to read property "logo" on array
+[Method: GET, Route: configurar]
+in APPPATH\Views\admin\configuracion\configurar.php on line 62.
+ 1 APPPATH\Views\admin\configuracion\configurar.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "logo" on array', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\configuracion\\configurar.php', 62)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\configuracion\\configurar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/configuracion/configurar', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(14): view('admin/configuracion/configurar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 06:56:39 --> ErrorException: Undefined array key "teléfono"
+[Method: GET, Route: configurar]
+in APPPATH\Views\admin\configuracion\configurar.php on line 115.
+ 1 APPPATH\Views\admin\configuracion\configurar.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "teléfono"', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\configuracion\\configurar.php', 115)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\configuracion\\configurar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/configuracion/configurar', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(14): view('admin/configuracion/configurar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 06:57:09 --> TypeError: Unsupported operand types: array - array
+[Method: GET, Route: configurar]
+in APPPATH\Views\admin\configuracion\configurar.php on line 128.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/configuracion/configurar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(14): view('admin/configuracion/configurar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 07:54:39 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::get_Post()
+[Method: POST, Route: guardarconfiguracion]
+in APPPATH\Controllers\Configuracion.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 07:56:53 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::get_Post()
+[Method: POST, Route: guardarconfiguracion]
+in APPPATH\Controllers\Configuracion.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 07:58:51 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::get_Post()
+[Method: POST, Route: guardarconfiguracion]
+in APPPATH\Controllers\Configuracion.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 08:01:08 --> mysqli_sql_exception: Unknown column 'url_facebok' in 'field list' in C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `configu...', 0)
+#1 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configu...')
+#2 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configu...')
+#3 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configu...', Array, false)
+#4 C:\xampp\htdocs\bibliotecadigital\app\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\bibliotecadigital\app\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', Array)
+#6 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+#7 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#8 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\bibliotecadigital\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-01 08:01:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'url_facebok' in 'field list'
+[Method: POST, Route: guardarconfiguracion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 2 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:01:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'url_facebok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:01:08\'
+WHERE `idconfiguracion` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:01:08\'
+WHERE `idconfiguracion` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 4 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:01:08 --> [Caused by] mysqli_sql_exception: Unknown column 'url_facebok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:01:08\'
+WHERE `idconfiguracion` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:01:08\'
+WHERE `idconfiguracion` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:01:08\'
+WHERE `idconfiguracion` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 5 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 08:03:29 --> mysqli_sql_exception: Unknown column 'url_facebok' in 'field list' in C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `configu...', 0)
+#1 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configu...')
+#2 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configu...')
+#3 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configu...', Array, false)
+#4 C:\xampp\htdocs\bibliotecadigital\app\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\bibliotecadigital\app\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', Array)
+#6 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+#7 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#8 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\bibliotecadigital\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-01 08:03:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'url_facebok' in 'field list'
+[Method: POST, Route: guardarconfiguracion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 2 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:03:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'url_facebok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:03:29\'
+WHERE `idconfiguracion` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:03:29\'
+WHERE `idconfiguracion` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 4 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:03:29 --> [Caused by] mysqli_sql_exception: Unknown column 'url_facebok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:03:29\'
+WHERE `idconfiguracion` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:03:29\'
+WHERE `idconfiguracion` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:03:29\'
+WHERE `idconfiguracion` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 5 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 08:05:27 --> mysqli_sql_exception: Unknown column 'url_facebok' in 'field list' in C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\bibliotecadigital\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `configu...', 0)
+#1 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configu...')
+#2 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configu...')
+#3 C:\xampp\htdocs\bibliotecadigital\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configu...', Array, false)
+#4 C:\xampp\htdocs\bibliotecadigital\app\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\bibliotecadigital\app\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', Array)
+#6 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+#7 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#8 C:\xampp\htdocs\bibliotecadigital\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bibliotecadigital\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\bibliotecadigital\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-01 08:05:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'url_facebok' in 'field list'
+[Method: POST, Route: guardarconfiguracion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 2 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:05:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'url_facebok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:05:27\'
+WHERE `idconfiguracion` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:05:27\'
+WHERE `idconfiguracion` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 4 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 08:05:27 --> [Caused by] mysqli_sql_exception: Unknown column 'url_facebok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:05:27\'
+WHERE `idconfiguracion` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:05:27\'
+WHERE `idconfiguracion` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configuracion` SET `idconfiguracion` = \'1\', `logo` = NULL, `favicon` = NULL, `telefono` = \'+584121090185\', `correo` = \'nuevocorreo@gmail.com\', `horario` = \'Lunes-Viernes 07:00 a 17:00\', `descripcion` = \'Biblioteca Digital ahora disponible para ayudar en el crecimiento ácademico de nuestros estudiantes. \', `url_facebok` = NULL, `url_x` = NULL, `url_instagram` = NULL, `url_youtube` = NULL, `created_at` = \'2025-03-01 08:05:27\'
+WHERE `idconfiguracion` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `idconfiguracion` = :idconfiguracion:, `logo` = :logo:, `favicon` = :favicon:, `telefono` = :telefono:, `correo` = :correo:, `horario` = :horario:, `descripcion` = :descripcion:, `url_facebok` = :url_facebok:, `url_x` = :url_x:, `url_instagram` = :url_instagram:, `url_youtube` = :url_youtube:, `created_at` = :created_at:
+WHERE `idconfiguracion` = :idconfiguracion.1:', [...], false)
+ 5 APPPATH\Models\ConfiguracionModel.php(44): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Configuracion.php(76): App\Models\ConfiguracionModel->modificar('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

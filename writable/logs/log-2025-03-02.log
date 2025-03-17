@@ -1,0 +1,144 @@
+CRITICAL - 2025-03-02 19:56:38 --> ErrorException: file_get_contents(C:\xampp\htdocs\bibliotecadigital\writable\debugbar/debugbar_1740816511.048207.json): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\bibliotecadigital\\writable\\debugbar/debugbar_1740816511.048207.json): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\bibliotecadigital\\system\\Debug\\Toolbar\\Collectors\\History.php', 88)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(88): file_get_contents('C:\\xampp\\htdocs\\bibliotecadigital\\writable\\debugbar/debugbar_1740816511.048207.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1740945380.065042', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 20:55:04 --> ErrorException: Undefined array key "id_rol"
+[Method: GET, Route: roles]
+in APPPATH\Views\admin\roles\index.php on line 102.
+ 1 APPPATH\Views\admin\roles\index.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rol"', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\index.php', 102)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/index', [], true)
+ 5 APPPATH\Controllers\Roles.php(14): view('admin/roles/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:17:37 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: editarroles/6]
+in APPPATH\Views\admin\roles\edit.php on line 60.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 4 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:18:06 --> ErrorException: Attempt to read property "nombrerol" on string
+[Method: GET, Route: editarroles/6]
+in APPPATH\Views\admin\roles\edit.php on line 60.
+ 1 APPPATH\Views\admin\roles\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombrerol" on string', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 5 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:19:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarroles/favicon.ico]
+in APPPATH\Views\admin\roles\edit.php on line 59.
+ 1 APPPATH\Views\admin\roles\edit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 5 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:20:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarroles/favicon.ico]
+in APPPATH\Views\admin\roles\edit.php on line 50.
+ 1 APPPATH\Views\admin\roles\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 5 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:21:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarroles/favicon.ico]
+in APPPATH\Views\admin\roles\edit.php on line 50.
+ 1 APPPATH\Views\admin\roles\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 5 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:21:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarroles/favicon.ico]
+in APPPATH\Views\admin\roles\edit.php on line 50.
+ 1 APPPATH\Views\admin\roles\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 5 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:31:13 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+[Method: POST, Route: guardaredicion]
+in APPPATH\Controllers\Roles.php on line 50.
+ 1 APPPATH\Controllers\Roles.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Controllers\\Roles.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->saveedit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:31:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarroles/favicon.ico]
+in APPPATH\Views\admin\roles\edit.php on line 50.
+ 1 APPPATH\Views\admin\roles\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\roles\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/roles/edit', [], true)
+ 5 APPPATH\Controllers\Roles.php(45): view('admin/roles/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-02 21:31:26 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+[Method: POST, Route: guardaredicion]
+in APPPATH\Controllers\Roles.php on line 50.
+ 1 APPPATH\Controllers\Roles.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Controllers\\Roles.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Roles->saveedit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

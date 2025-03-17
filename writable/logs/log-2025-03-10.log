@@ -1,0 +1,1879 @@
+CRITICAL - 2025-03-10 00:00:29 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:00:32 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:00:33 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:00:34 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:31 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:31 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:33 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:34 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:54 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:55 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:57 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:01:57 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:02:19 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:13 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:13 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:36 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:37 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:38 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:38 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:04:55 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:05:01 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:05:01 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:05:01 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:05:02 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:05:15 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:05:26 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:06:10 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:06:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:06:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:06:15 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:07:06 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:07:10 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:07:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:07:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:00 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:02 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:04 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:06 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:48 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:48 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:50 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:08:50 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:09:32 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:09:32 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:09:36 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:09:36 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:09:36 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 00:09:36 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:19:54 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:19:54 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:19:58 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:19:59 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:22:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:22:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:22:10 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:22:17 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:41 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:41 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:41 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:44 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:55 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:59 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:25:59 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:26:03 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:27:57 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:01 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:03 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:03 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:24 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:25 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:26 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:26 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:26 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:28:30 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:29:34 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:29:34 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:29:37 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:29:38 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:29:38 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:02 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:02 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:03 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:03 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:04 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:07 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:27 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:28 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:29 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:29 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:29 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:31:32 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:32:06 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:32:07 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:32:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:32:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:32:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:32:11 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:33:19 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:33:19 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/signUpbg.jpg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'signUpbg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:33:22 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:33:22 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:33:23 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:35:48 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:35:48 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:35:49 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:36:04 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:36:06 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:36:07 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:36:07 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:51:18 --> ErrorException: Undefined variable $carreras
+[Method: GET, Route: librosderecho]
+in APPPATH\Views\derecho.php on line 58.
+ 1 APPPATH\Views\derecho.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carreras', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\derecho.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\derecho.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('derecho', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('derecho', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrarderecho()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 04:52:15 --> ErrorException: Attempt to read property "idlibros" on string
+[Method: GET, Route: librosderecho]
+in APPPATH\Views\derecho.php on line 79.
+ 1 APPPATH\Views\derecho.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idlibros" on string', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\derecho.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\derecho.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('derecho', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('derecho', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrarderecho()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:02:29 --> ErrorException: Undefined variable $configuracion
+[Method: GET, Route: librosderecho]
+in APPPATH\Views\layouts\layoutFront.php on line 172.
+ 1 APPPATH\Views\layouts\layoutFront.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layoutFront.php', [], true)
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('derecho', [], true)
+ 6 APPPATH\Controllers\Home.php(58): view('derecho', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrarderecho()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:07 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:09 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:12 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:41 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:41 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:07:41 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:10:05 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:10:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:10:08 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:11:44 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:11:46 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:11:46 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:11:46 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:25:11 --> ErrorException: Undefined array key "telefono"
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\layoutFront.php on line 174.
+ 1 APPPATH\Views\layouts\layoutFront.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefono"', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php', 174)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layoutFront.php', [], true)
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 6 APPPATH\Controllers\Home.php(19): view('biblioteca', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 05:25:51 --> ErrorException: Attempt to read property "telefono" on array
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\layoutFront.php on line 174.
+ 1 APPPATH\Views\layouts\layoutFront.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefono" on array', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php', 174)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\layouts\\layoutFront.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layoutFront.php', [], true)
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('biblioteca', [], true)
+ 6 APPPATH\Controllers\Home.php(19): view('biblioteca', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 06:00:19 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/icon/shuffle.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'icon', 'shuffle.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 06:00:20 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/plane-shape.png]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'plane-shape.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 06:00:20 --> ErrorException: Attempt to read property "titulo" on null
+[Method: GET, Route: libroscarreras/assets/img/logo/white-logo.svg]
+in APPPATH\Views\detalle.php on line 13.
+ 1 APPPATH\Views\detalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mostrardetalle('assets', 'img', 'logo', 'white-logo.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-10 06:01:29 --> ErrorException: Attempt to read property "idlibros" on null
+[Method: GET, Route: editarlibros/favicon.ico]
+in APPPATH\Views\admin\libros\edit.php on line 49.
+ 1 APPPATH\Views\admin\libros\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idlibros" on null', 'C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bibliotecadigital\\app\\Views\\admin\\libros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/libros/edit', [], true)
+ 5 APPPATH\Controllers\Libros.php(107): view('admin/libros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
